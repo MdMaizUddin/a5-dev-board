@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwindcss cdn -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- popple google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        .font-poppins{
+            font-family: poppins;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body class="bg-gray-100 space-y-5 mt-5 font-poppins">
+    <header class="flex justify-between container mx-auto items-center rounded-lg bg-white p-5">
+        <div class="flex items-center space-x-2">
+            <img class="w-1/5" src="./assets/logo.png" alt="">
+            <p class="text-4xl text-blue-900">Dev<span class="font-bold">Board</span> </p>
+        </div>
+        <div class="flex items-center gap-3">
+            <div class="flex p-2 bg-gray-100 rounded-lg gap-2 ">
+                <div class="bg-blue-500 rounded-lg">
+                    <i class="fa-solid fa-check p-1 text-white"></i>
+                </div>
+                <p class="font-bold">23</p>
+            </div>
+            <div class="bg-gray-100 p-2 rounded-full ">
+                <img class="w-7" src="./assets/theme-btn.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="gap-3 container mx-auto flex">
+        <div class=" bg-white gap-2 w-full rounded-lg">
+            <div class="flex gap-3 m-5">
+                <div class="flex bg-gray-100 items-center gap-3 rounded-lg p-3 w-72">
+                    <div class="bg-blue-600 p-1 rounded-lg">
+                        <i class="fa-solid fa-check text-white"></i>
+                    </div>
+                    <div>
+                        <p>task assigned</p>
+                        <p>05</p>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-r from-blue-500 to-blue-400 p-5 flex items-center gap-3 rounded-lg w-full">
+                    <div><img src="./assets/board.png" alt=""></div>
+                    <div>
+                        <p class="text-white">Discover Something <br> New Today!</p>
+                    </div>
+
+                </div>
+                <div class="flex bg-gray-200 items-center gap-3 rounded-lg p-3 w-72">
+                    <div class="bg-white p-2 rounded-lg">
+                        <img src="./assets/calender.png" alt="">
+                    </div>
+                    <div>
+                        <p>wed,</p>
+                        <p>jul 28 2025</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-dotted border-gray-300">
+            <div class="p-5 grid grid-cols-3 gap-3">
+                <!-- card 1-->
+                <div class="bg-gray-100 p-5 rounded-lg  space-y-3">
+                    <div class="flex">
+                        <p class="bg-white p-3 rounded-lg">shopEase</p>
+                    </div>
+                    <p>Fix Mobile Button Issue </p>
+                    <div class="bg-white p-3 rounded-lg text-gray-600  h-20 ">
+                        <p>Debug using Chrome 
+                            <p class="overflow-hidden text-ellipsis whitespace-nowrap">DevTools, check for overlapping elements, and ensure onClick works properly
+                                and ensure onClick works properly
+
+                            </p></p>
+                    </div>
+                    <hr class="border-dotted border-gray-400 space-x-4">
+                    <div class="flex items-center justify-between ">
+                        <div>
+                            <p class="text-gray-600">Deadline</p>
+                            <p class="font-semibold">21 March 2025</p>
+                        </div>
+                        <div>
+                            <button class="bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
+                        </div>
+                    </div>
+                </div>               
+                  <!-- card 2-->
+                <div class="bg-gray-100 p-5 rounded-lg  space-y-3">
+                    <div class="flex">
+                        <p class="bg-white p-3 rounded-lg">shopEase</p>
+                    </div>
+                    <p>Fix Mobile Button Issue </p>
+                    <div class="bg-white p-3 rounded-lg text-gray-600  h-20 ">
+                        <p>Debug using Chrome 
+                            <p class="overflow-hidden text-ellipsis whitespace-nowrap">DevTools, check for overlapping elements, and ensure onClick works properly
+                                and ensure onClick works properly
+
+                            </p></p>
+                    </div>
+                    <hr class="border-dotted border-gray-400 space-x-4">
+                    <div class="flex items-center justify-between ">
+                        <div>
+                            <p class="text-gray-600">Deadline</p>
+                            <p class="font-semibold">21 March 2025</p>
+                        </div>
+                        <div>
+                            <button class="bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
+                        </div>
+                    </div>
+                </div>               
+                  <!-- card 3-->
+                <div class="bg-gray-100 p-5 rounded-lg  space-y-3">
+                    <div class="flex">
+                        <p class="bg-white p-3 rounded-lg">shopEase</p>
+                    </div>
+                    <p>Fix Mobile Button Issue </p>
+                    <div class="bg-white p-3 rounded-lg text-gray-600  h-20 ">
+                        <p>Debug using Chrome 
+                            <p class="overflow-hidden text-ellipsis whitespace-nowrap">DevTools, check for overlapping elements, and ensure onClick works properly
+                                and ensure onClick works properly
+
+                            </p></p>
+                    </div>
+                    <hr class="border-dotted border-gray-400 space-x-4">
+                    <div class="flex items-center justify-between ">
+                        <div>
+                            <p class="text-gray-600">Deadline</p>
+                            <p class="font-semibold">21 March 2025</p>
+                        </div>
+                        <div>
+                            <button class="bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
+                        </div>
+                    </div>
+                </div>               
+                  <!-- card 4-->
+                <div class="bg-gray-100 p-5 rounded-lg  space-y-3">
+                    <div class="flex">
+                        <p class="bg-white p-3 rounded-lg">shopEase</p>
+                    </div>
+                    <p>Fix Mobile Button Issue </p>
+                    <div class="bg-white p-3 rounded-lg text-gray-600  h-20 ">
+                        <p>Debug using Chrome 
+                            <p class="overflow-hidden text-ellipsis whitespace-nowrap">DevTools, check for overlapping elements, and ensure onClick works properly
+                                and ensure onClick works properly
+
+                            </p></p>
+                    </div>
+                    <hr class="border-dotted border-gray-400 space-x-4">
+                    <div class="flex items-center justify-between ">
+                        <div>
+                            <p class="text-gray-600">Deadline</p>
+                            <p class="font-semibold">21 March 2025</p>
+                        </div>
+                        <div>
+                            <button class="bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
+                        </div>
+                    </div>
+                </div>               
+                  <!-- card 5-->
+                <div class="bg-gray-100 p-5 rounded-lg  space-y-3">
+                    <div class="flex">
+                        <p class="bg-white p-3 rounded-lg">shopEase</p>
+                    </div>
+                    <p>Fix Mobile Button Issue </p>
+                    <div class="bg-white p-3 rounded-lg text-gray-600  h-20 ">
+                        <p>Debug using Chrome 
+                            <p class="overflow-hidden text-ellipsis whitespace-nowrap">DevTools, check for overlapping elements, and ensure onClick works properly
+                                and ensure onClick works properly
+
+                            </p></p>
+                    </div>
+                    <hr class="border-dotted border-gray-400 space-x-4">
+                    <div class="flex items-center justify-between ">
+                        <div>
+                            <p class="text-gray-600">Deadline</p>
+                            <p class="font-semibold">21 March 2025</p>
+                        </div>
+                        <div>
+                            <button class="bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
+                        </div>
+                    </div>
+                </div>               
+                  <!-- card 6-->
+                <div class="bg-gray-100 p-5 rounded-lg  space-y-3">
+                    <div class="flex">
+                        <p class="bg-white p-3 rounded-lg">shopEase</p>
+                    </div>
+                    <p>Fix Mobile Button Issue </p>
+                    <div class="bg-white p-3 rounded-lg text-gray-600  h-20 ">
+                        <p>Debug using Chrome 
+                            <p class="overflow-hidden text-ellipsis whitespace-nowrap">DevTools, check for overlapping elements, and ensure onClick works properly
+                                and ensure onClick works properly
+
+                            </p></p>
+                    </div>
+                    <hr class="border-dotted border-gray-400 space-x-4">
+                    <div class="flex items-center justify-between ">
+                        <div>
+                            <p class="text-gray-600">Deadline</p>
+                            <p class="font-semibold">21 March 2025</p>
+                        </div>
+                        <div>
+                            <button class="bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
+                        </div>
+                    </div>
+                </div>                 
+                         
+
+            </div>
+            
+        </div>
+        <div class="w-90 bg-white ">
+            <div class="text-center space-y-2 border-b-dotted">
+                <div class="flex gap-5 justify-center">
+                    <img src="./assets/activity.png" alt="">
+                    <p>Activity Log</p>
+                </div>
+                <div>
+                    <button class="bg-blue-600 p-2 rounded-lg text-white">Clear History</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+    
+</body>
+</html>
