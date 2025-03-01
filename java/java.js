@@ -39,22 +39,14 @@ for (let button of buttons) {
     
         let div =document.createElement('div');
         div.classList.add('p-3','bg-gray-100','m-3','rounded-lg')
-    
-        
-       
-        
-        div.innerHTML = `You clicked this button on ${month[date.getMonth()]} ${time}`;
-
-
+            
+        div.innerHTML = `You clicked this button on ${currentDate}, ${month[date.getMonth()]} ${time}`;
 
         container.append(div);
-        
+
         button.disabled = true;
 
-     })
-   
-
-    
+     }) 
 }
 
 document.getElementById('clear-history').addEventListener('click',function(){
