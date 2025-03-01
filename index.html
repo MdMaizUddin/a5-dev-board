@@ -32,9 +32,9 @@
                 <div class="primary-color rounded-lg">
                     <i class="fa-solid fa-check p-1 text-white"></i>
                 </div>
-                <p class="font-bold">23</p>
+                <p id="increase" class="font-bold">23</p>
             </div>
-            <div class="bg-gray-100 p-2 rounded-full ">
+            <div class="bg-gray-100 p-2 rounded-full " onclick="randomize()">
                 <img class="w-7" src="./assets/theme-btn.png" alt="">
             </div>
         </div>
@@ -48,10 +48,10 @@
                     </div>
                     <div>
                         <p>task assigned</p>
-                        <p class="text-3xl font-bold">05</p>
+                        <p id="decrease" class="text-3xl font-bold">05</p>
                     </div>
                 </div>
-                <div class="bg-gradient-to-r from-blue-600 to-blue-300 p-5 flex items-center gap-3 rounded-lg w-full">
+                <div id="discover-btn" class="bg-gradient-to-r from-blue-600 to-blue-300 p-5 flex items-center gap-3 rounded-lg w-full">
                     <div><img class="w-16" src="./assets/board.png" alt=""></div>
                     <div>
                         <p class="text-white font-medium text-xl">Discover Something <br> New Today!</p>
@@ -63,8 +63,8 @@
                         <img src="./assets/calender.png" alt="">
                     </div>
                     <div>
-                        <p>wed,</p>
-                        <p class="font-bold text-lg">jul 28 2025</p>
+                
+                        <p id="currect-date" class= font-bold text-lg"></p>
                     </div>
                 </div>
             </div>
@@ -83,14 +83,14 @@
 
                             
                     </div>
-                    <hr class="border-dotted border-gray-400 space-x-4">
+                    <hr class="border-dotted border-gray-400 ">
                     <div class="flex items-center justify-between ">
                         <div>
                             <p class="text-gray-600">Deadline</p>
                             <p class="font-medium">21 March 2025</p>
                         </div>
-                        <div>
-                            <button class="completed-btn bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
+                        <div onclick="Completed()">
+                            <button class="=btn bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
                         </div>
                     </div>
                 </div>               
@@ -112,8 +112,8 @@
                             <p class="text-gray-600">Deadline</p>
                             <p class="font-medium">21 March 2025</p>
                         </div>
-                        <div>
-                            <button class= "completed-btn bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
+                        <div onclick="Completed()">
+                            <button class= "btn bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
                         </div>
                     </div>
                 </div>               
@@ -136,8 +136,8 @@
                             <p class="text-gray-600">Deadline</p>
                             <p class="font-medium">21 March 2025</p>
                         </div>
-                        <div>
-                            <button class="completed-btn bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
+                        <div onclick="Completed()"> 
+                            <button class="btn bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
                         </div>
                     </div>
                 </div>               
@@ -160,8 +160,8 @@
                             <p class="text-gray-600">Deadline</p>
                             <p class="font-medium">21 March 2025</p>
                         </div>
-                        <div>
-                            <button class="completed-btn bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
+                        <div onclick="Completed()">
+                            <button class="btn bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
                         </div>
                     </div>
                 </div>               
@@ -184,8 +184,8 @@
                             <p class="text-gray-600">Deadline</p>
                             <p class="font-medium">21 March 2025</p>
                         </div>
-                        <div>
-                            <button class="completed-btn bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
+                        <div onclick="Completed()">
+                            <button class="btn bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
                         </div>
                     </div>
                 </div>               
@@ -200,7 +200,7 @@
                             <p class="overflow-hidden text-ellipsis whitespace-nowrap">DevTools, check for overlapping elements, and ensure onClick works properly
                                 and ensure onClick works properly
 
-                            </p></p>
+                        
                     </div>
                     <hr class="border-dotted border-gray-400 space-x-4">
                     <div class="flex items-center justify-between ">
@@ -208,8 +208,8 @@
                             <p class="text-gray-600">Deadline</p>
                             <p class="font-medium">21 March 2025</p>
                         </div>
-                        <div>
-                            <button class="completed-btn bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
+                        <div onclick="Completed()">
+                            <button class="btn bg-blue-600 text-white p-2 rounded-lg ">Completed</button>
                         </div>
                     </div>
                 </div>                 
@@ -218,14 +218,14 @@
             </div>
             
         </div>
-        <div class="w-90 bg-white ">
+        <div class="w-[30%] bg-white rounded-lg ">
             <div class="text-center space-y-2 p-5">
                 <div class="flex gap-3 justify-center">
                     <img src="./assets/activity.png" alt="">
                     <p>Activity Log</p>
                 </div>
                 <div>
-                    <button class="bg-blue-600 p-2 rounded-lg text-white">Clear History</button>
+                    <button id="clear-history" class="bg-blue-600 p-2 rounded-lg text-white">Clear History</button>
                 </div>
             </div>
             <hr class="border-dotted border-gray-300">
